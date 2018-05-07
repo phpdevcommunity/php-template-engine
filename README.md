@@ -1,2 +1,2 @@
 # templating
-s simple php templating
+a simple php templating

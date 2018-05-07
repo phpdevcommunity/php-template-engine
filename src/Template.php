@@ -9,8 +9,9 @@ namespace Webbym;
 class Template
 {
     /**
-     * @param $view
-     * @param array $params
+     * @param string $view
+     * @param array $context
+     * @return string
      * @throws \Exception
      */
     public function render(string $view, array $context = [])
