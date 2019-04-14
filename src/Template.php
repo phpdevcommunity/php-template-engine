@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbym;
+namespace Fad;
 
 /**
  * Class Template

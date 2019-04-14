@@ -1,17 +1,17 @@
 {
-    "name": "webbym/templating",
+    "name": "fad/templating",
     "description": "a simple php templating",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Fad M",
-            "email": "contact@webbymichel.com"
+            "email": "fad@heycoder.xyz"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Webbym\\": "src"
+            "Fad\\": "src"
         }
     },
     "require": {}
