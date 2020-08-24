@@ -1,17 +1,17 @@
 {
-    "name": "webbym/templating",
+    "name": "devcoder.xyz/templating",
     "description": "a simple php templating",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Fad M",
-            "email": "contact@webbymichel.com"
+            "name": "Fad M.R",
+            "email": "fadymichel@devcoder.xyz"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Webbym\\": "src"
+            "DevCoder\\": "src"
         }
     },
     "require": {}
