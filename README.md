@@ -1,5 +1,5 @@
-# PHP template
-A simple PHP templating
+# PHP template engine
+A simple PHP template engine
 
 Easy to use:
 

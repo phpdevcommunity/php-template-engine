@@ -8,7 +8,6 @@ namespace DevCoder;
  */
 class Template
 {
-
     /**
      * @var string
      */
@@ -38,15 +37,15 @@ class Template
      */
     public function render(string $view, array $context = []): string
     {
-        if (!file_exists($view)) {
-            throw new \Exception(sprintf('The file %s could not be found.', $view));
+        if (!file_exists($file = $this->path.$view)) {
+            throw new \Exception(sprintf('The file %s could not be found.', $file));
         }
 
         extract(array_merge($context, ['template' => $this]));
 
         ob_start();
 
-        include ($this->path.$view);
+        include ($file);
 
         return ob_get_clean();
     }
@@ -59,5 +58,4 @@ class Template
     {
         return $this->parameters[$key] ?? null;
     }
-
 }

@@ -1,6 +1,6 @@
 {
-    "name": "devcoder.xyz/templating",
-    "description": "a simple php templating",
+    "name": "devcoder-xyz/php-template-engine",
+    "description": "a simple php template engine",
     "type": "library",
     "license": "MIT",
     "authors": [
