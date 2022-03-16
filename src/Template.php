@@ -37,11 +37,7 @@ class Template
      */
     public function render(string $view, array $context = []): string
     {
-        $content = $this->load($view, array_merge($context, ['template' => $this]));
-        foreach ($context as $key => $value) {
-            $content = str_replace('{{'.$key.'}}', $value, $content);
-        }
-        return $content;
+        return $this->load($view, array_merge($context, ['template' => $this]));
     }
 
     private function load(string $view, array $context) : string
